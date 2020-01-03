@@ -1,1 +1,82 @@
-<mxfile host="www.draw.io" modified="2020-01-03T08:12:31.988Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" version="12.4.8" etag="d4-TLB_9_wZgLdPVXewM" type="github"><diagram id="FskfF6vReyAjmzxuFYWd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-03T08:43:20.395Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="b0NMUuUlcSaWjHcQn2UV" version="12.4.8" type="github">
+  <diagram id="FskfF6vReyAjmzxuFYWd" name="Page-1">
+    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="fUD6Am5aVNEx5CL87pCN-26" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="70" y="110" width="60" height="400" as="geometry"/>
+        </mxCell>
+        <mxCell id="fUD6Am5aVNEx5CL87pCN-23" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;labelBackgroundColor=#ffffff;outlineConnect=0;" vertex="1" parent="fUD6Am5aVNEx5CL87pCN-26">
+          <mxGeometry x="20" y="30" width="20" height="370" as="geometry"/>
+        </mxCell>
+        <mxCell id="fUD6Am5aVNEx5CL87pCN-24" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;A 域名&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" vertex="1" parent="fUD6Am5aVNEx5CL87pCN-26">
+          <mxGeometry width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="fUD6Am5aVNEx5CL87pCN-27" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="640" y="110" width="60" height="400" as="geometry"/>
+        </mxCell>
+        <mxCell id="fUD6Am5aVNEx5CL87pCN-28" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;labelBackgroundColor=#ffffff;outlineConnect=0;" vertex="1" parent="fUD6Am5aVNEx5CL87pCN-27">
+          <mxGeometry x="20" y="30" width="20" height="370" as="geometry"/>
+        </mxCell>
+        <mxCell id="fUD6Am5aVNEx5CL87pCN-29" value="&lt;b style=&quot;font-size: 15px&quot;&gt;B 域名&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" vertex="1" parent="fUD6Am5aVNEx5CL87pCN-27">
+          <mxGeometry width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="fUD6Am5aVNEx5CL87pCN-30" value="中转页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="320" y="110" width="100" height="410" as="geometry"/>
+        </mxCell>
+        <mxCell id="fUD6Am5aVNEx5CL87pCN-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=15;" vertex="1" parent="fUD6Am5aVNEx5CL87pCN-30">
+          <mxGeometry x="55" y="140" width="10" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="fUD6Am5aVNEx5CL87pCN-34" value="将 A 的数据存储到自己域名下面" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=15;" edge="1" target="fUD6Am5aVNEx5CL87pCN-33" parent="fUD6Am5aVNEx5CL87pCN-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="120" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="90" y="120"/>
+              <mxPoint x="90" y="140"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUD6Am5aVNEx5CL87pCN-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=15;" vertex="1" parent="fUD6Am5aVNEx5CL87pCN-30">
+          <mxGeometry x="45" y="90" width="10" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="fUD6Am5aVNEx5CL87pCN-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=15;" vertex="1" parent="fUD6Am5aVNEx5CL87pCN-30">
+          <mxGeometry x="45" y="210" width="10" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="fUD6Am5aVNEx5CL87pCN-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=15;" vertex="1" parent="fUD6Am5aVNEx5CL87pCN-30">
+          <mxGeometry x="55" y="245" width="10" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="fUD6Am5aVNEx5CL87pCN-45" value="拿到 A 之前存的数据" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=15;" edge="1" parent="fUD6Am5aVNEx5CL87pCN-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="56" y="225" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="81" y="225"/>
+              <mxPoint x="81" y="245"/>
+            </Array>
+            <mxPoint x="61" y="245" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUD6Am5aVNEx5CL87pCN-37" value="通过 postMessage api 我要存储数据" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=15;" edge="1" target="fUD6Am5aVNEx5CL87pCN-36" parent="1" source="fUD6Am5aVNEx5CL87pCN-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="200" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUD6Am5aVNEx5CL87pCN-38" value="存储好了" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;fontSize=15;" edge="1" source="fUD6Am5aVNEx5CL87pCN-36" parent="1" target="fUD6Am5aVNEx5CL87pCN-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="276" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUD6Am5aVNEx5CL87pCN-42" value="我要 A 的拿数据" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;fontSize=15;" edge="1" target="fUD6Am5aVNEx5CL87pCN-41" parent="1" source="fUD6Am5aVNEx5CL87pCN-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="320" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUD6Am5aVNEx5CL87pCN-43" value="返回 A 的数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;fontSize=15;" edge="1" source="fUD6Am5aVNEx5CL87pCN-41" parent="1" target="fUD6Am5aVNEx5CL87pCN-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="377" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
